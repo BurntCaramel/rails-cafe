@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+
+html {
+    font-family: system,-apple-system,-webkit-system-font,BlinkMacSystemFont,Helvetica Neue,Helvetica,Segoe UI,Roboto,Arial,freesans,sans-serif;
+    font-size: 20px;
+}
+
+main {
+    max-width: 34rem;
+    margin: auto;
+}
