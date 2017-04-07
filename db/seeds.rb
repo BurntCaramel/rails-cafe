@@ -13,6 +13,6 @@ Item.create [
   { title: 'Milkshake', price: 6.00, kind: :drink },
   { title: 'Fresh juice', price: 5.50, kind: :drink },
   # Food
-  { title: 'Muffin', price: 4.00, kind: :drink },
-  { title: 'Toastie', price: 6.00, kind: :drink }
+  { title: 'Muffin', price: 4.00, kind: :food },
+  { title: 'Toastie', price: 6.00, kind: :food }
 ]

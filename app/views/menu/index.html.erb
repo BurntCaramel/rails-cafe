@@ -2,14 +2,14 @@
 
 <h2>Drinks</h2>
 <ul>
-    <li>Coffee: $3</li>
-    <li>Tea: $3</li>
-    <li>Milkshake: $6</li>
-    <li>Fresh juice: $5.50</li>
+  <% @drinks.each do |item| %>
+    <li><%= render item %></li>
+  <% end %>
 </ul>
 
 <h2>Food</h2>
 <ul>
-    <li>Muffin: $4</li>
-    <li>Toastie: $6</li>
+  <% @food.each do |item| %>
+    <li><%= render item %></li>
+  <% end %>
 </ul>
