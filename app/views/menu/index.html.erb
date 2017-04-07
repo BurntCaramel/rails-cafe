@@ -3,13 +3,13 @@
 <h2>Drinks</h2>
 <ul>
   <% @drinks.each do |item| %>
-    <li><%= render item %></li>
+    <li><%= render item, show_order: true %></li>
   <% end %>
 </ul>
 
 <h2>Food</h2>
 <ul>
   <% @food.each do |item| %>
-    <li><%= render item %></li>
+    <li><%= render item, show_order: true %></li>
   <% end %>
 </ul>

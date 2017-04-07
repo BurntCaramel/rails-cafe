@@ -1,0 +1,18 @@
+<p id="notice"><%= notice %></p>
+
+<h2><%= render @order.item %></h2>
+
+<% if @order.paid_at.present? %>
+<p>
+  <strong>Paid:</strong>
+  <%= time_tag @order.paid_at, time_ago_in_words(@order.paid_at) + ' ago' %>
+</p>
+<% else %>
+<p>
+  <strong>Unpaid:</strong>
+  <%= link_to 'Pay now', edit_order_path(@order) %>
+</p>
+<% end %>
+
+<%= link_to 'See menu', menu_path %> ·
+<%= link_to 'All orders', orders_path %>

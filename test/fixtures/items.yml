@@ -1,9 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  title: MyString
-  price: 9.99
+coffee:
+  title: Coffee
+  price: 3.00
+  kind: :drink
 
-two:
-  title: MyString
-  price: 9.99
+muffin:
+  title: Muffin
+  price: 6.00
+  kind: :food
