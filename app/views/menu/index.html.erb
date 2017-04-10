@@ -1,15 +1,15 @@
-<h1>Menu</h1>
+<h1 class="text-center mt-2">Menu</h1>
 
-<h2>Drinks</h2>
-<ul>
+<h2 class="text-center mt-3">Drinks</h2>
+<ul class="nav flex-column text-center">
   <% @drinks.each do |item| %>
-    <li><%= render item %></li>
+    <li class="nav-item"><%= render item %></li>
   <% end %>
 </ul>
 
-<h2>Food</h2>
-<ul>
+<h2 class="text-center mt-3">Food</h2>
+<ul class="nav flex-column text-center">
   <% @food.each do |item| %>
-    <li><%= render item %></li>
+    <li class="nav-item"><%= render item %></li>
   <% end %>
 </ul>
