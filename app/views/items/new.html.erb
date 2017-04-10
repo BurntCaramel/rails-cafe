@@ -1,5 +1,7 @@
-<h1>New Item</h1>
+<h1 class="text-center mt-2">New Item</h1>
 
 <%= render 'form', item: @item %>
 
-<%= link_to 'Back', items_path %>
+<div class="btn-group">
+    <%= link_to 'Back', items_path, class: 'btn' %>
+</div>
