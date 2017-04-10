@@ -1,4 +1,4 @@
-<%= item.title %> · <%= number_to_currency item.price %>
+<span class="item-title"><%= item.title %></span> · <span class="item-price"><%= number_to_currency item.price %></span>
 <% if local_assigns.fetch(:show_order, false) %>
     · <%= link_to 'Order', new_order_path(item: item.id) %>
 <% end %>

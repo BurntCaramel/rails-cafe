@@ -1,8 +1,0 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-coffee_unpaid:
-  item: coffee
-
-coffee_paid:
-  item: coffee
-  paid_at: 2017-04-07 12:34:55
